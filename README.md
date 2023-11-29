@@ -1,6 +1,6 @@
 # Hazard-classification
 
-# SMARTPHIL: FIRST WORKSHOP ON SMART PERSONAL HEALTH INTERFACES
+## SMARTPHIL: FIRST WORKSHOP ON SMART PERSONAL HEALTH INTERFACES
 ```
 This repository contains the source code for identifying hazards from incident reports and is developed as a part of the stelar-eu . 
 ```
