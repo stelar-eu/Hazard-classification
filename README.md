@@ -2,7 +2,7 @@
 
 ## SMARTPHIL: FIRST WORKSHOP ON SMART PERSONAL HEALTH INTERFACES
 ```
-This repository contains the source code for identifying hazards from incident reports and is developed as a part of the stelar-eu . 
+This repository contains the source code for identifying hazards from incident reports and is developed as a part of the stelar-eu project. 
 ```
 ## System Requirements: 
 ``` 
