@@ -15,4 +15,4 @@ argparse == 1.1
 
 > 🚧 **Constant Updating**
 > 
-> This repo is still under construction.
+> This repo is under construction.
