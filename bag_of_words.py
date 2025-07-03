@@ -174,7 +174,7 @@ for train_index, test_index in kf.split(X):
     print('-----The 1st Confusion Matrix')
     print('The confusion matrix is', '\n', confusion_matrix(y_test_label, pred_labels))
 
-    #Generating a CSV File of predicted results
+    #Generating a CSV File of Predicted Results
     pred=pd.DataFrame(columns=['Id', 'Orginal Labels', target_class])
     pred['Id'] = test_index
     pred['Orginal Labels'] = y_test_label
