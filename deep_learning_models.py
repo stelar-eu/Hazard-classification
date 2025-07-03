@@ -1,4 +1,4 @@
-#Importing the packages and libraries 
+#Importing the packages and libraries for using deep learning models with the combination of word embeddings
 #Gensim Library
 import gensim
 from gensim.models import Word2Vec 
