@@ -65,19 +65,9 @@ import gc
 import statistics
 from statistics import mean
 
-# In[14]:
 
-if len(sys.argv)!=2:
-    print ("python test.py classname")
-    sys.exit(1)
-target_class = sys.argv[1]
-print("---------------------------")
-print ("CLASSNAME:",target_class)
-train_data = pd.read_csv('Asthma.csv', sep=';')
-for column in train_data:
-    print(column)
-    
-#Defining the function for seperating Texts and Labels
+
+#Defining the function for separating Texts and Labels
 def texts_and_labels(data):
     texts = []
     labels = []
@@ -97,8 +87,8 @@ print(label[0:50], 'The Label type is', type(label), len(label))
 
 stemmer = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
-#Pre-processing the data
 
+#Pre-processing the data
 #Lower casing the data
 text1=np.char.lower(text)
 print(type(text1))   
