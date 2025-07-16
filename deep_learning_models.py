@@ -377,19 +377,19 @@ if __name__ == "__main__":
     parser.add_argument('--attention-layer', dest='attention_layer', default='False', action='store', type=str, help='The input file')
     args = parser.parse_args()
     
-#Step 1- Passing the target_class to the class with name of hazard_obj
+#Step 1- Creating object
     hazard_obj = hazard(args.target_class)
     print(args.target_class)
     print(args.word_embedding)
     print(args.model_type)
 
-#Step 2- Applying the method/function texts_and_labels 
+#Step 2- Applying texts_and_labels 
     hazard_obj.texts_and_labels()
 
-#Step 3- Appyling the method/function padded_encoded_text 
+#Step 3- Applying padded_encoded_text 
     hazard_obj.padded_encoded_text()
     
-#Step 4- Applying the method/function to choose the type of word embedding 
+#Step 4- Applying to choose the type of word embedding 
     if args.word_embedding == 'word2vec': 
         hazard_obj.word2vec()
     elif args.word_embedding == 'glove':
@@ -416,5 +416,5 @@ if __name__ == "__main__":
         print('Please use one of models: lstm, lstm_cnn or bi_lstm')
         exit(1)
       
-#Step 6- Applying the method/function train 
+#Step 6- Applying train 
     hazard_obj.train(args.model_type, args.attention_layer)
